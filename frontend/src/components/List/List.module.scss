@@ -1,0 +1,20 @@
+.listSection {
+	margin-top: 2rem;
+}
+.list {
+	list-style-type: none;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 1.5rem;
+
+	> li {
+		height: 314px;
+	}
+
+	@media (max-width: 768px) {
+		grid-template-columns: 1fr 1fr;
+	}
+	@media (max-width: 480px) {
+		grid-template-columns: 1fr;
+	}
+}

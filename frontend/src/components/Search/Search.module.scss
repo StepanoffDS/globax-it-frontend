@@ -1,0 +1,29 @@
+.search {
+	position: relative;
+
+	&:hover {
+		.input {
+			border-color: #b5c9ff;
+		}
+	}
+}
+.input {
+	border: 1px solid #d4defe;
+	width: 100%;
+	border-radius: 1.5rem;
+	height: 48px;
+	padding: 0.5rem 1.5rem;
+	font-size: 1.25rem;
+}
+.button {
+	position: absolute;
+	right: 1.5rem;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 24px;
+	height: 24px;
+
+	&:hover {
+		opacity: 0.8;
+	}
+}
